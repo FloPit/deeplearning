@@ -3,15 +3,23 @@ We consider the problem of predicting the remaining useful life (RUL) of complex
 
 Code:
 This project contains the code we use to train our three architectures, CNN, LSTM and ResNet. Our best models of each architecture were results of these scripts. In the following we describe the content of each file:
-CNN_v5_tanh_v2_0.50_HL_4x10_1.ipynb                               script to train our CNN model.
-CNN_v5_tanh_v2_0.50_HL_4x10_1.h5                                  best CNN model achieved with CNN_v5_tanh_v2_0.50_HL_4x10_1.ipynb
-LSTM_5x42_Rearly125.ipynb                                         script to train our LSTM model.
-LSTM_125_20_42_layer.h5                                           best LSTM model achieved with LSTM_5x42_Rearly125.ipynb
-CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.ipynb script to train our ResNet model.
-CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.h5    best ResNet model achieved with CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.ipynb
-RUL_FD001.txt                                                     training data
-test_FD001.txt                                                    test data
-train_FD001.txt                                                   RUL of test data
+* CNN_v5_tanh_v2_0.50_HL_4x10_1.ipynb -                               script to train our CNN model
+
+* CNN_v5_tanh_v2_0.50_HL_4x10_1.h5   -                               best CNN model achieved with CNN_v5_tanh_v2_0.50_HL_4x10_1.ipynb
+
+* LSTM_5x42_Rearly125.ipynb         -                                script to train our LSTM model
+
+* LSTM_125_20_42_layer.h5            -                               best LSTM model achieved with LSTM_5x42_Rearly125.ipynb
+
+* CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.ipynb - script to train our ResNet model
+
+* CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.h5   - best ResNet model achieved with CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.ipynb
+
+* RUL_FD001.txt           -                                          training data
+
+* test_FD001.txt         -                                           test data
+
+* train_FD001.txt           -                                        RUL of test data
 
 
 The scripts can be run in Jupyter Notebook. They require following libraries to be installed:
