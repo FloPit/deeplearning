@@ -29,4 +29,5 @@ numpy, tensorflow, keras, pandas, seaborn, matplotlib
 
 ## Authors
 Manuel Arias Chao, Christian Schneebeli, Lukas R. Peter
+
 For questions please contact Christian Schneebeli (christian dot schneebeli at bluemail.ch)
