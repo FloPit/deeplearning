@@ -5,17 +5,17 @@ We consider the problem of predicting the remaining useful life (RUL) of complex
 This project contains the code we use to train our three architectures, CNN, LSTM and ResNet. Our best models of each architecture were results of these scripts. In the following we describe the content of each file:
 
 
-* CNN_v5_tanh_v2_0.50_HL_4x10_1.ipynb -                               script to train our CNN model
+* 5-layer-CNN.ipynb -                               script to train our CNN model
 
-* CNN_v5_tanh_v2_0.50_HL_4x10_1.h5   -                               best CNN model achieved with CNN_v5_tanh_v2_0.50_HL_4x10_1.ipynb
+* 5-layer-CNN.h5   -                               best CNN model achieved with 5-layer-CNN.ipynb
 
-* LSTM_5x42_Rearly125.ipynb         -                                script to train our LSTM model
+* 5-layer-LSTM.ipynb         -                                script to train our LSTM model
 
-* LSTM_125_20_42_layer.h5            -                               best LSTM model achieved with LSTM_5x42_Rearly125.ipynb
+* 5-layer-LSTM.h5            -                               best LSTM model achieved with 5-layer-LSTM.ipynb
 
-* CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.ipynb - script to train our ResNet model
+* 27-layer-ResNet.ipynb - script to train our ResNet model
 
-* CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.h5   - best ResNet model achieved with CNN_v6_ResNet_2Stg_2xC_3xI_tanh_Drop_0.5_NoBatch_Batch_2048.ipynb
+* 27-layer-ResNet.h5   - best ResNet model achieved with 27-layer-ResNet.ipynb
 
 * RUL_FD001.txt           -                                          training data
 
